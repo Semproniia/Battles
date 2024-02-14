@@ -3,7 +3,7 @@ name: Prava CKB
 on:
   push:
     paths:
-      - 'BattagliadiSQL/ex.java'
+      - 'BattagliaAA/ex.java'
 
 jobs:
   send-to-platform:
@@ -21,7 +21,7 @@ jobs:
 
       - name: Visualizza il contenuto del file
         run: |
-          cat BattagliadiSQL/ex.java
+          cat BattagliaAA/ex.java
 
       - name: Ottieni l'email del committer
         id: get_commit_email
